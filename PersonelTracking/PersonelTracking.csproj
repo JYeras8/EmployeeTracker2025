@@ -1,0 +1,160 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Sounds\BrightPlalce.Wav" />
+      <None Remove="Sounds\Button.wav" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_01.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_010.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_02.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_03.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_04.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_05.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_06.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_07.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_08.WAV" />
+      <None Remove="Sounds\ClickArray\Click_Mouse_Button_09.WAV" />
+      <None Remove="Sounds\Error2.wav" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_01.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_02.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_03.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_04.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_05.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_06.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_07.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_08.WAV" />
+      <None Remove="Sounds\KeyArray\MechanicalKeyboard_09.WAV" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Sounds\BrightPlalce.Wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\Boot.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\Button.wav">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_01.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_010.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_02.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_03.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_04.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_05.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_06.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_07.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_08.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\ClickArray\Click_Mouse_Button_09.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\Error2.wav">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_01.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_02.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_03.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_04.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_05.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_06.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_07.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_08.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Sounds\KeyArray\MechanicalKeyboard_09.WAV">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ClosedXML" Version="0.105.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BLL\BLL.csproj" />
+      <ProjectReference Include="..\DAL\DAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Frms\FrmMain.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Frms\FrmDeparment.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Frms\FrmDeparmentList.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Frms\FrmPosition.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Frms\FrmPositionList.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Properties\Resources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Properties\Resources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

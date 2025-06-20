@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DAL</id>
+    <version>1.0.0</version>
+    <authors>DAL</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="EntityFramework" version="6.5.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.runtimeconfig.json" target="lib\net9.0\DAL.runtimeconfig.json" />
+    <file src="C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.dll" target="lib\net9.0\DAL.dll" />
+  </files>
+</package>

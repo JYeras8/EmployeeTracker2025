@@ -1,0 +1,14 @@
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.dll
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.pdb
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.dll
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.pdb
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\ref\DAL.dll
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\bin\Debug\net9.0\DAL.runtimeconfig.json
+C:\Users\JYSSD\Documents\Rider\PersonelTracking\DAL\obj\Debug\net9.0\DAL.genruntimeconfig.cache
